@@ -1,13 +1,17 @@
 // Step 1: Import React
 import React from "react";
-import { Link } from "gatsby";
+
 import Layout from "../components/Layout";
+import { StaticImage } from "gatsby-plugin-image";
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <Layout pageTitle="My Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
-      <Link to="/About">About</Link>
+      <StaticImage
+        alt="a beautiful golden retriever"
+        src="../images/Sherry-sleeping.jpg"
+      ></StaticImage>
     </Layout>
   );
 };
