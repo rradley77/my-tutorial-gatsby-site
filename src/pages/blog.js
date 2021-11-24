@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/layoutComponent";
+import Layout from "../components/layout";
 import { graphql } from "gatsby";
 const BlogPage = ({ data }) => {
   return (
