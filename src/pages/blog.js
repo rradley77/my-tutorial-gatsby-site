@@ -24,3 +24,5 @@ export const query = graphql`
 `;
 
 export default BlogPage;
+
+//this is a blog page
